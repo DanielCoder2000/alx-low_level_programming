@@ -1,13 +1,19 @@
-#!/bin/bash
-#include <stdio.h>
 /*
- * this method is used to include the header
- * */
-int main(){
-/*
- *this is where we store our code
+ *Filename:5-printf.c
+ *Author :Letsatsi Mothemane 2022/09/08
  */
 
+#include <stdio.h>
+
+/*
+ *main prints "with proper grammar, but the outcome is a piece of art,"
+ *
+ * return: Always 0.
+ */
+int main(void)
+{
+
 	printf("with proper grammar, but the outcome is a piece of art,");
-	return 0;
+
+	return (0);
 }
