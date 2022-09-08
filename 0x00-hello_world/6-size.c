@@ -5,9 +5,10 @@
 
 #include <stdio.h>
 
-/**
+/*
  *
- * main - Prints "the size of various bytes depending on the computer its printed from"
+ * main - Prints "the size of various bytes depending on
+ * the computer its printed from" then prints the next line
  *
  * return: Always 0.
  */
