@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /*
- *
+ * Description: using the main function
  * main - Prints "the size of various bytes depending on
  * the computer its printed from" then prints the next line
  *
