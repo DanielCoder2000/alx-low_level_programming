@@ -5,9 +5,9 @@
 
 #include <stdio.h>
 
-/*
+/*main-prints the size of bytes
  * Description: using the main function
- * main - Prints "the size of various bytes depending on
+ * this Prints "the size of various bytes depending on
  * the computer its printed from" then prints the next line
  *
  * return: Always 0.
