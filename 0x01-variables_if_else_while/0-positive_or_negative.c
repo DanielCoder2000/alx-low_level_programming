@@ -6,10 +6,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * return: Always 0
- *main function: prints the random number that is
- *positive or negative
+/**
+ * main - Prints "randon positive or negative numbers
+ * or 0," followed by a new line.
+ *
+ * Return: Always 0
  */
 
 int main(void)
@@ -21,15 +22,15 @@ srand(time(0));
 n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
-printf("%d is positive", n);
+printf("%d is positive ", n);
 }
 else if (n == 0)
 {
-printf("%d is equal to 0", n);
+printf("%d is 0", n);
 }
 else
 {
-printf("%d is negative", n);
+printf("%d is negative ", n);
 }
 
 return (0);
