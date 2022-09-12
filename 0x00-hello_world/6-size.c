@@ -2,17 +2,14 @@
  *Filename: 6-size.c
  *Author: Letsatsi Mothemane 2022/09/08
  */
-
 #include <stdio.h>
-
-/*
- * main - prints the size of bytes
- * description: using the main function
- * this Prints "the size of various bytes depending on
- * the computer its printed from" then prints the next line
+/**
+ * main - Prints "byte size for all data types
+ * then," prints a new line
  *
- * return: Always 0.
+ * Return: Always 0.
  */
+
 int main(void)
 {
 	printf("Size of a char: %zu byte(s)\n", sizeof(char));
